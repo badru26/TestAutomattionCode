@@ -18,6 +18,7 @@ public class Demo1 {
 				}
 			}
 		}
+		System.out.println("yuyhu");
 		System.out.println(arr[1]);
 	}
 
