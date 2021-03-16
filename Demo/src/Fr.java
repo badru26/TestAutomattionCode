@@ -26,6 +26,7 @@ public class Fr {
             FileUtils.copyFile(screenshot, new File("C:\\projectScreenshots\\homePageScreenshot.png"));
         } catch (IOException e) {
             System.out.println(e.getMessage());
+            
         }
 		
 //		 String url = "https://www.tutorialspoint.com/tutor_connect/index.php";

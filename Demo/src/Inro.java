@@ -19,6 +19,7 @@ public class Inro {
 		
 		driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
 //		Thread.sleep(5000);
+		
 		 driver.findElement(By.xpath("//div[@class='CodeMirror-cursors']")).click();
 	 driver.findElement(By.xpath("//div[@class='CodeMirror-cursors']")).clear();
 	 driver.switchTo().alert().accept();
